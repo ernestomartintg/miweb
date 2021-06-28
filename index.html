@@ -4,8 +4,59 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Avance GIT FINAL</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<header>
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-auto">
+					<h1>MyOrderNow</h1>
+				</div>
+				<div class="col-auto">
+					<div class="avatar-container" data-target="#profileOptions" data-toggle="modal">
+						<img src="img/avatar.jpg" alt="">
+							<i class="fas fa-cog"></i>
+					</div>
+				</div>				 
+			</div>
+		</div>
+		<div class="modal fade" id="profileOptions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+				      <div class="modal-header">
+					        <h5 class="modal-title">Opciones</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+				      </div>
+				      <div class="modal-body">
+				        <ul class="profile-options-list">
+				        	<li>
+				        		<a href="#"><i class="fas fa-user">Mi Perfil</i></a>
+				        	</li>
+				        	<li>
+				        		<a href="#"><i class="fas fa-map-marker-alt"> Mis direcciones</i></a>
+				        	</li>
+				        	<li>
+				        		<a href="#"><i class="fas fa-credit-card">Mis tarjetas</i></a>
+				        	</li>
+				        	<li>
+				        		<a href="#" class="text-danger"><i class="fas fa-times-circle"></i>Cerrar sesion</a>
+				        	</li>
+				        </ul>
+				      </div>				      
+			    </div>
+			</div>
+		</div>
+	</header>
+
+	<script src="https://kit.fontawesome.com/d4dd3bbfe7.js" crossorigin="anonymous"></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/popper.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
 </body>
 </html>
